@@ -7,6 +7,7 @@ winget install Microsoft.OpenJDK.16
 # C:\Program Files\Microsoft\jdk-16.0.1.9-hotspot
 wget https://github.com/mzyy94/RictyDiminished-for-Powerline/archive/refs/tags/3.2.4-powerline-early-2016.zip -O 3.2.4-powerline-early-2016.zip
 # https://nelog.jp/how-to-use-ricty-diminished-font
+# http://monolog.lsv.jp/font-rictydiminished/
 ```
 
 # Java
