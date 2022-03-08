@@ -1,6 +1,7 @@
 ```bash:install
 winget install Microsoft.VisualStudioCode -l D:/tools/vscode
 winget install Git.Git -l D:/tools/git
+winget install --id Google.Chrome --force --silent
 # winget install 7zip.7zip -l D:/tools/7zip
 winget install Microsoft.OpenJDK.16
 # C:\Program Files\Microsoft\jdk-16.0.1.9-hotspot
