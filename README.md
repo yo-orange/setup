@@ -15,6 +15,8 @@ https://hosopro.blogspot.com/2017/01/powershell-set-environment-variable.html#:~
 # PS C:\work> $oldSystemPath += ";c:\work"
 # PS C:\work> [System.Environment]::SetEnvironmentVariable("Path", $oldSystemPath, "Machine")
 winget install --id Microsoft.PowerAutomateDesktop -l D:/tools/PowerAutomateDesktop
+winget install --id SlackTechnologies.Slack
+winget install --id Google.Drive
 ```
 
 # Java
