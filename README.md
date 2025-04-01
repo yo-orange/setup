@@ -32,3 +32,10 @@ $ git config --global user.name "name"
 $ git config --global user.email "email"
 $ git config --global core.autocrlf false
 ```
+
+# wsl
+https://learn.microsoft.com/ja-jp/windows/wsl/setup/environment#set-up-your-linux-username-and-password
+```
+$ wsl --install
+$ sudo apt update && sudo apt upgrade
+```
