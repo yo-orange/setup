@@ -28,9 +28,11 @@ code --install-extension pivotal.vscode-boot-dev-pack
 
 # Git
 ```
-$ git config --global user.name "name"
-$ git config --global user.email "email"
+$ git config --global user.name "yuki.okazaki"
+$ git config --global user.email "yuki.x.okazaki@gmail.com
 $ git config --global core.autocrlf false
+$ ssh-keygen -t ed25519 -C "yuki.x.okazaki@gmail.com"
+$ cat .ssh\id_ed25519.pub | clip
 ```
 
 # wsl
