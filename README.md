@@ -40,3 +40,9 @@ https://learn.microsoft.com/ja-jp/windows/wsl/setup/environment#set-up-your-linu
 $ wsl --install
 $ sudo apt update && sudo apt upgrade
 ```
+
+# docker
+https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script
+```
+sudo usermod -aG docker $USER
+```
