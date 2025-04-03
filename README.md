@@ -41,6 +41,16 @@ $ wsl --install
 $ sudo apt update && sudo apt upgrade
 ```
 
+# wsl gpu
+https://rocm.docs.amd.com/projects/radeon/en/latest/docs/install/wsl/install-radeon.html
+```
+sudo apt update
+wget https://repo.radeon.com/amdgpu-install/6.3.4/ubuntu/noble/amdgpu-install_6.3.60304-1_all.deb
+sudo apt install ./amdgpu-install_6.3.60304-1_all.deb
+amdgpu-install -y --usecase=wsl,rocm --no-dkms
+
+```
+
 # docker
 https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script
 ```
